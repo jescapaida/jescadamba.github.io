@@ -1,37 +1,20 @@
-## My Project Website
+# Introduction
 
-You can use the [editor on GitHub](https://github.com/jescapaida/jescadamba.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Nyanga Family Clinic was founded in 1989 by the late Dr H.K Dambanemuya. It was situated at Mangondoza Township in Nyanga and later moved to Rochdale the central business district at which it is currently sited. It was founded because there was no private practitioner in the whole of Nyanga district and at some point there was no doctor at the general hospital resulting in the community travelling at least 100kmsfor consultation. Nyanga family clinic is a general practice hence everyone is the target population especially the Nyanga District residents. Every patient first sees a general practitioner before getting to a specialist. It offers services such as consultation, Family planning services and counselling, scaling, Antenatal care but no deliveries and scanning services. It is registered under the Ministry of Health and has been fully functional since 1989. It is currently being run by Sister Damba who is a qualified nurse and Doctor T.T Chiramba.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 1.0	Mission Statement 
 
-### Markdown
+Providing the best patient care by treating patients as family with sensitivity and empathy
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 1.1 Purpose
 
-```markdown
-Syntax highlighted code block
+To cover primary care needs for outpatients in the community dedicated to healing and excellence
 
-# Header 1
-## Header 2
-### Header 3
+# Project Name and Description
 
-- Bulleted
-- List
+The project name is going to be Patient Record Management System. It will be a process of creating a database for patient’s files with different access rights with a user friendly user interface. The nurse and doctor would be having access to the patients’ history, diagnosis and prescription whilst the receptionist would just be able to access basic information such as the person’s address, name, and payment details. It will improve data storage access and enable data driven decision making such as daily reports.
 
-1. Numbered
-2. List
+# Problems of the Current System
 
-**Bold** and _Italic_ and `Code` text
+The current system is a manual or traditional filing system, everything is paper based. Nyanga family clinic was founded in 1990, making it 30 years old. In the health sector patient information is very confidential and vital, meaning it should be kept safe and should be readily available. Since numbers of patients have been accumulating over the years, Storage space has become a problem and some of the papers are now torn and dusty. The file location process is time consuming and tedious because there are a lot of files and they can be easily misplaced as they are more prone to human error. Unauthorized access of files is not restricted since any staff member can just open the file cabinet hence data security is improvised. The main problem with the current system as of recent is that they now have digital scanning systems, Implantable cardiac defibrillator (ICD)  and hardware components such as iPads, and MacBooks which record the information their medical devices and their patient information is still in paper.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jescapaida/jescadamba.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
