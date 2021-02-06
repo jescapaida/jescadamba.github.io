@@ -56,5 +56,6 @@ The developer will use the agile lifecycle model since this project/ system is s
 ![](./assets/img/agile.jpg)
 
 *Figure 1.1: Illustration of Agile Development Model.*
+[Source](http://www.aditicorp.com/services/agile-methodology-based-services/)
 
 
