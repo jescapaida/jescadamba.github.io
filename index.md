@@ -17,3 +17,8 @@ The project name is going to be Patient Record Management System. It will be a p
 # Problems of the Current System
 
 The current system is a manual or traditional filing system, everything is paper based. Nyanga family clinic was founded in 1990, making it 30 years old. In the health sector patient information is very confidential and vital, meaning it should be kept safe and should be readily available. Since numbers of patients have been accumulating over the years, Storage space has become a problem and some of the papers are now torn and dusty. The file location process is time consuming and tedious because there are a lot of files and they can be easily misplaced as they are more prone to human error. Unauthorized access of files is not restricted since any staff member can just open the file cabinet hence data security is improvised. The main problem with the current system as of recent is that they now have digital scanning systems, Implantable cardiac defibrillator (ICD)  and hardware components such as iPads, and MacBooks which record the information their medical devices and their patient information is still in paper.
+
+# Proposed System
+
+![Overview of Proposed System](./assets/img/framework.jpg)
+
