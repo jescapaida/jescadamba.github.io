@@ -30,21 +30,21 @@ I propose tp develop an Electronic Patient Records (EPR) software application. T
 
 ## Primary objectives
 
-•	To develop a digital health system with an interface and database to store patients’ records
-•	To computerize the billing system and automate billing systems
++ To develop a digital health system with an interface and database to store patients’ records
++ To computerize the billing system and automate billing systems
 
 ## Secondary objectives
-•	To provide more secure and efficient data storage and instant access to records
-•	To enable data-driven decision making
++ To provide more secure and efficient data storage and instant access to records
++ To enable data-driven decision making
 
 # Scope of the project
  
 This study is focused on designing a web based online patient record management system. The system will be made specifically for implementation at Nyanga Family Clinic. 
 
 ## Assumptions
-•	That the doctors and staff are capable of using the system
-•	That the staff members are ready to migrate to a computerized system
-•	That the clinic has reliable internet connectivity
++ That the doctors and staff are capable of using the system
++ That the staff members are ready to migrate to a computerized system
++ That the clinic has reliable internet connectivity
 
 ## Limitations
 The software system is web-based and cannot be accessed without an internet connection. Since the software is web-based, it is also slower compared to local server-based or desktop applications.
