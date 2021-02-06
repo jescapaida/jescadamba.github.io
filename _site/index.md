@@ -2,8 +2,6 @@
 
 Nyanga Family Clinic was founded in 1989 by the late Dr H.K Dambanemuya. It was situated at Mangondoza Township in Nyanga and later moved to Rochdale the central business district at which it is currently sited. It was founded because there was no private practitioner in the whole of Nyanga district and at some point there was no doctor at the general hospital resulting in the community travelling at least 100 kms for consultation. Nyanga family clinic is a general practice hence everyone is the target population especially the Nyanga District residents. Every patient first sees a general practitioner before getting to a specialist. It offers services such as consultation, Family planning services and counselling, scaling, antenatal care but no deliveries and scanning services. It is registered under the Ministry of Health and has been fully functional since 1989. It is currently being run by Sister Damba who is a qualified nurse and Doctor T.T Chiramba.
 
-# Test
-
 ## 1.0	Mission Statement 
 
 Providing the best patient care by treating patients as family with sensitivity and empathy
