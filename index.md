@@ -86,7 +86,7 @@ The developer will develop a web based Electronic Medical record system which fo
 +	Most hospitals do not have an IT department hence resulting in lack of technical support
 +	Security  concerns, the violation of doctor patient confidentiality was an issue of concern pertaining to who had access to the system
 +	Resistance to change, most clinicians are now accustomed to the manual system arguing that digitalized systems are more difficult to use
-+	Lack of basic medical facilities, hospitals lack basic equipment tha an advancement in technology will be a luxury
++	Lack of basic medical facilities, hospitals lack basic equipment that an advancement in technology will be a luxury
 
 Therefore Digitization makes it easier for patients and healthcare professionals to remain on the same page. Gone are the days when the patients had to maintain a thick medical records file they needed to bring to every medical appointment. Particularly with medical emergencies, patient history is at the mercy of the attendants who may or may not be well-versed with the patient’s profile. Digitization has leveled this platform to keep both patients and their doctors well informed of every situation.
 
