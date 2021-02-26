@@ -161,6 +161,134 @@ On the 19th of February 2021 an employee satisfaction survey was carried out at 
 
 In conclusion the whole survey indicated that training will be necessary upon implementation of basic computer skills and how to navigate across the system. The results displayed also showed that the staff members have a positive attitude towards EMRs and are ready to learn more and use it. This gave the developer an insight of how the end-user thinks and their capabilities of using the system. 
 
+## software Requrements Specifications (Volere)
+
+SRS is a description of the software or system to be developed.  It will provide a detailed overview of the system whilst indicating its parameters and goals. This section will use the Volere template to outline the software requirements specification of a web based Patient Management Record System. It will cover naming conventions and terminology, Functional and non-functional requirements, Performance requirements, constraints and security requirements.
+
+### Naming Conventions and Terminology
+
+A glossary of terms and names used in this study.
+
+NFC:				    Nyanga Family Clinic
+EMR:				    Electronic Medical Records, these are digitized patient files which are now in electric form
+Patient History:		Data which includes a patient's problems, medications,allergies, family history, social history, allergies,
+UML				        Unified Modelling Language, is a standardized modelling language that uses graphic notation to create visual representations of systems
+DDL				        Data Definition Language,  this is a language used for data definition and modification
+DFD				        Data Flow diagrams represent the flow of data graphically
+ERD				        Entity Relationship Diagrams show the relationships between entities in a database
+HL-7 :  				Health Level Seven standards for interoperability of health information technology.
+
+### The stakeholder
+These are individuals with an interest of the product in this case the software.
+
+#### The client
+These are the end users of the system.
+
+The Admin is the super user of the system who is also the developer.
+The admin shall create users for the system
+The admin shall maintain and control updates of the system
+
+#### The receptionist
+The receptionist shall create patient forms and set appointments
+
+#### The nurse
+The nurse shall have access rights to the EMRs (read and write)
+
+#### The doctor
+
+The nurse shall have access rights to the EMRs (read and write)
+
+### Functional Requirements
+
+These requirements define what the application does (functions,)the processes it has to carry out and the protocols/rules  it functions by.
+
++	The system will allow users to search for a patient using primary keys (IDs)
++	The system will allow data editing if the user has access rights
++	The system will allow online storage of files
++	The system will allow different users to login using different login credentials
++	The system will enable users to retrieve data based on a certain criteria
++	The system will enable users to create reports
++	The system will abide by the HL-7 standards
++	The system shall be able to calculate medical bills 
++	The system shall be able to print prescriptions
+
+###  Non Functional requirements
+
+#### Appearance Requirements
+
++	The system will provide a web application user interface that is compatible with the web browser and user friendly.
++	The system will be tailor made it will comply with the branding standards.
++	The interface will have a blueish theme
+
+Fit criterion:
+
+The employees at NFC are novices when it comes to computers hence the interface will suit the user
+The system branding shall certify that the product abides with the current standards
+
+#### Performance requirements
+
++ The system shall operate in real-time, the response timing is instant
+
+Fit Criterion
+
++ The system will be time conducive and it will save time by reducing the turnaround time.
++ There should be reliable network connection with a large bandwidth
+
+#### Security Requirements
+
++ The system will be protected by passwords
++ It shall not allow user access unless provided with the correct credentials
+
+Fit Criterion
+
+This will ensure data safety stored in the databases
+
+#### User Documentation and Training
+
++ The system will come with a clearly written user manual
++ The employees of NFC shall be trained upon implementation
+
+Fit Criterion
+
+The staff members will require training upon implementation
+
+#### Reliability and availability Requirements
+
++ The system shall be available any time of the day all year round
++ The system shall be accessible anywhere around the globe which provides an internet 
+
+
+## Use Case
+
+Use case modelling is defined as an important tool for requirements elicitation. It provides a graphical representation of the software system's requirements. It represents the interaction between the user and the system, the user being the actor and the case being the system actions or processes. It is used to capture the dynamic aspect of the system. A use case diagram is shown below in figure 3.2
+
+Actors of the system
+
++	Administrator
++	Receptionist
++	Nurse
++	Doctor
+
+![](./assets/img/usecase.jpg)
+
+*Figure 3.1: Use Case Diagram.*
+
+### Use Case Documentation
+
+
+
+## Evaluation of Ethical considerations
+
+ Ethical values are universal rules of conduct that provide a practical basis for identifying what kinds of actions, intentions, and motives are valued (Ostman L, 2019). Health records contain both facts and professional opinions on a patient's physical and/or mental health. Consultation notes scan results, videos, audio recordings, photographs, tissue samples and correspondence between professionals all feature in health records. With all this in consideration this system has to be reliable, secure and information should be kept confidential. Respect for patient autonomy requires that patient encounters and information are kept confidential and private; fostering trust and improving communication. (L, 2012) All vital information in the healthcare sector is protected by the Data Protection Act which prescribes ways to address data privacy in the digital world. The following were observed during the development of the patient record management system:
+
+Informed consent: The developer got informed consent to access patient’s records in order to come up with a suitable tailor made system and to be working in their organization abiding by their code of ethics. 
+
+Confidentiality: Confidentiality was observed in all the processes whilst and after handling the medical files.
+
+Anonymity: The people who participated in the research of this study and development of the new system will remain anonymous
+
+The dangers of unethical practices: These will negatively affect the company’s image and reputation since it might result in lawsuits.
+
 
 # Bibliography
 
