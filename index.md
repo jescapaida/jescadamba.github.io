@@ -150,6 +150,18 @@ The benefits in this case outweigh the costs hence the project is economically f
  This project conforms to all the legal and ethical requirements both in the software development and the health sector.
 
 
+# Chapter 3: Requirements analysis
+
+## Survey Report
+
+
+On the 19th of February 2021 an employee satisfaction survey was carried out at Nyanga Family Clinic focused on 8 of its staff members. The survey was conducted to seek permission from Health professionals to conduct a changeover from a manual/traditional/ paper based system to electronic medical records. It was also conducted to identify factors that could affect implementation and that needed to be considered by the developers. The survey was carried out by means of a questionnaire which has been listed in the appendix. The questionnaire consisted of Demographic/ statistical attributes, the knowledge of the health professionals on electronic medical records and closed ended questions on their (the health professionals) readiness to accept the EMRs.
+
+8 questionnaires were distributed, one for each employee. Of the 8 distributed there was all responded giving a 100% participation rate and a 100% completion rate every question in the questionnaire was responded fully. The last respondent submitted their questionnaire on the 22nd of February, 2021. The statistical views indicated that the age range was from 26- 60 years. 25% have diplomas and below and 75% are degree holders.100% has a working experience of more than 2 years in the medical field. 62.5% are computer literate and have access to computers at home, 37,5% have access to computers at work.  Under the knowledge and attitude of EMRs 50% indicated to have knowledge on EMRs and computer related skills, 37.5% have a previous know how of EMRs.100% have positive feelings towards EMRs and believe that EMRs have importance and will improve service quality, patient satisfaction ,and will save money and time. 100% agreed to have the hardware to support EMR implementation. Finally the readiness section indicated that 75% of the respondents are 92% ready for the new system and 37,5% showed 50% readiness of engagement.
+
+In conclusion the whole survey indicated that training will be necessary upon implementation of basic computer skills and how to navigate across the system. The results displayed also showed that the staff members have a positive attitude towards EMRs and are ready to learn more and use it. This gave the developer an insight of how the end-user thinks and their capabilities of using the system. 
+
+
 # Bibliography
 
 Anna De Benedictis, E. L. (2020). Elctronic Medicl Records implementation in hospitals: An investigation of indivisual and organisational determinants. PLOS .
@@ -163,6 +175,10 @@ D.S., C. (2016). Potential/Preparedness of e-health services in Zimbabwe. Intern
 Gopal, G., & Clemens Suter-Crazzalara, L. T. (2018). Digital transformation in health-care -architectures of present and future information technologies. Clinical Chemistry and Laboratory Medicine, 9-10.
 
 Gore, P. C. (2020, January 24). Public Hospitals go digital. The Herald, p. 3.
+
+## Appendix
+
+[Survey Report - Questionnaire](https://www.dropbox.com/s/w6j1zqaijvytko0/questionnaire.pdf?dl=0)
 
 
 
