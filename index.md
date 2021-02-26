@@ -161,7 +161,7 @@ On the 19th of February 2021 an employee satisfaction survey was carried out at 
 
 In conclusion the whole survey indicated that training will be necessary upon implementation of basic computer skills and how to navigate across the system. The results displayed also showed that the staff members have a positive attitude towards EMRs and are ready to learn more and use it. This gave the developer an insight of how the end-user thinks and their capabilities of using the system. 
 
-## software Requrements Specifications (Volere)
+## Software Requrements Specifications (Volere)
 
 SRS is a description of the software or system to be developed.  It will provide a detailed overview of the system whilst indicating its parameters and goals. This section will use the Volere template to outline the software requirements specification of a web based Patient Management Record System. It will cover naming conventions and terminology, Functional and non-functional requirements, Performance requirements, constraints and security requirements.
 
@@ -169,14 +169,21 @@ SRS is a description of the software or system to be developed.  It will provide
 
 A glossary of terms and names used in this study.
 
-NFC:				    Nyanga Family Clinic
-EMR:				    Electronic Medical Records, these are digitized patient files which are now in electric form
-Patient History:		Data which includes a patient's problems, medications,allergies, family history, social history, allergies,
-UML				        Unified Modelling Language, is a standardized modelling language that uses graphic notation to create visual representations of systems
-DDL				        Data Definition Language,  this is a language used for data definition and modification
-DFD				        Data Flow diagrams represent the flow of data graphically
-ERD				        Entity Relationship Diagrams show the relationships between entities in a database
-HL-7 :  				Health Level Seven standards for interoperability of health information technology.
+**NFC:**				    Nyanga Family Clinic
+
+**EMR:**				    Electronic Medical Records, these are digitized patient files which are now in electric form
+
+**Patient History:**		Data which includes a patient's problems, medications,allergies, family history, social history, allergies,
+
+**UML**			        Unified Modelling Language, is a standardized modelling language that uses graphic notation to create visual representations of systems
+
+**DDL**				        Data Definition Language,  this is a language used for data definition and modification
+
+**DFD**				        Data Flow diagrams represent the flow of data graphically
+
+**ERD**			        Entity Relationship Diagrams show the relationships between entities in a database
+
+**HL-7 :** 				Health Level Seven standards for interoperability of health information technology.
 
 ### The stakeholder
 These are individuals with an interest of the product in this case the software.
@@ -184,19 +191,19 @@ These are individuals with an interest of the product in this case the software.
 #### The client
 These are the end users of the system.
 
-The Admin is the super user of the system who is also the developer.
-The admin shall create users for the system
-The admin shall maintain and control updates of the system
++ The Admin is the super user of the system who is also the developer.
++ The admin shall create users for the system
++ The admin shall maintain and control updates of the system
 
 #### The receptionist
-The receptionist shall create patient forms and set appointments
++ The receptionist shall create patient forms and set appointments
 
 #### The nurse
-The nurse shall have access rights to the EMRs (read and write)
++ The nurse shall have access rights to the EMRs (read and write)
 
 #### The doctor
 
-The nurse shall have access rights to the EMRs (read and write)
++ The nurse shall have access rights to the EMRs (read and write)
 
 ### Functional Requirements
 
