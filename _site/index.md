@@ -224,7 +224,6 @@ The system has to be authorized by the ministry of health so that they ensure pr
 Modules of the proposed application includes the Login Model, The index/Menu, the  search page, the new patient, and logout page.
 
 ![](./assets/img/login.jpg)
-
 *Figure 5.4: Login Page.*
 
 ![](./assets/img/Search.jpg)
