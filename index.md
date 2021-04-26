@@ -282,6 +282,12 @@ Actors of the system
 
 ### Use Case Documentation
 
+![](./assets/img/uslog.jpg)
+
+![](./assets/img/usearch.jpg)
+
+![](./assets/img/usreg.jpg)
+
 
 
 ## Evaluation of Ethical considerations
@@ -295,6 +301,149 @@ Confidentiality: Confidentiality was observed in all the processes whilst and af
 Anonymity: The people who participated in the research of this study and development of the new system will remain anonymous
 
 The dangers of unethical practices: These will negatively affect the company’s image and reputation since it might result in lawsuits.
+
+
+# Chapter 4: System Modeling
+
+## System models
+
+System modeling is the process of developing abstract models of a system, with each model presenting a different view or perspective of that system (Sommervile, 2016).It helps the analyst understand the functionality of the system and models are used to communicate with the customers.
+
+## Logical Data Modeling
+
+This defines how the system should be implemented regardless of the Database Management System, It gives a clearly detailed description of data regardless of the way it will be physically implemented. below is a description of etities and their attributes
+
+![](./assets/img/ent.jpeg)
+
+*Figure 2.0: A description of entities and their attributes.*
+
+## Entity Relationship Diagram
+
+The diagram below describes in detail the entities involved and the relationships between these entities.
+
+![](./assets/img/ERD.jpg)
+
+*Figure 2.0: Entity Relationship Diagram.*
+
+## Data Flow Diagrams
+
+In this section there is going to be the context diagram for the general outlook and level 0 diagrams to illustrate the functions of the receptionist, administrator and doctor. Below is a data dictionary for the data flow diagrams:
+
+![](../assets/img/datad.jpeg)
+
+*Figure 2.0: A data dictionary for data flows.*
+
+
+![](./assets/img/CONTDFD.jpg)
+
+*Figure 2.0: Contextual diagram.*
+
+
+![](./assets/img/RECDFD.jpg)
+
+*Figure 2.0: Receptionist DFD .*
+
+![](./assets/img/docdfd.jpg)
+
+*Figure 2.0:Doctor’s Data Flow Diagram.*
+
+![](./assets/img/admdfd.jpg)
+
+*Figure 2.0:Administrator’s Data Flow diagram.*
+
+
+## Class diagrams
+
+This is a representation in the Unified Modeling Language (UML) is a type of static structure diagram that describes the structure of a system by showing the system's classes, their attributes, operations (or methods), and the relationships among objects.
+
+
+![](./assets/img/classd.jpg)
+*Figure 2.0: Class Diagram.*
+
+# Chapter 5
+
+## Interface design
+
+The interface was designed as a Graphic User Interface since it makes use of Windows, Icons, Menus and pointers. This was the best option since it is user friendly and easy to navigate. It is illustrated in figure 5.1 below:
+
+![](./assets/img/about.jpg)
+*Figure 5.1: Interface Design.*
+
+## Menu Design
+
+The system has a main menu with the standard horizontal design at the top right corner which consists of links to the Search page, New Patient, About page and Logout Page. These can only be accessed when a user logs in to the system with correct credentials. The Menu Page also shows the number of treated patients, number patients still waiting and pending appointments as shown in fig 5.2 below.
+
+![](./assets/img/menu.jpg)
+*Figure 5.2: Menu Design.*
+
+## System Architecture
+
+
+The system has to be authorized by the ministry of health so that they ensure privacy and security so as to authenticate the system before use. Once permission is granted the user accesses the system through the interface designed. Patients’ files are stored in a database located in the cloud. All backups are done on the cloud as shown in fig 5.3 below.
+
+
+![](./assets/img/archt.jpg)
+*Figure 5.3: System Architecture.*
+
+## Model Design
+
+Modules of the proposed application includes the Login Model, The index/Menu, the  search page, the new patient, and logout page.
+
+The login module facilitates access to the system for the employee granting them respective access priviledge:
+
+![](./assets/img/login.jpg)
+
+*Figure 5.4: Login Page.*
+
+The search page allows the user to search for a patient's record in the database and render results:
+
+![](./assets/img/Search.jpg)
+
+*Figure 5.5: Search Page.*
+
+The new patient module is to register a new page, it is used to enter contact details, patient history and billing information depending on access rights
+
+![](./assets/img/patient.jpg)
+
+*Figure 5.6: New Patient Page.*
+
+The about/ contact us page includes a background history of Nyanga Family Clinic, the services provided, contact details (get to know us) and a platform to contact the clinic (Contact Us)
+
+![](./assets/img/contact.jpg)
+
+*Figure 5.7: About/Contact Page.*
+
+# Chapter 6
+
+## Program flowchart
+
+This is a diagrammatic representation of the flow of activities in the system from logging in to logging out. A user logs into the system. If the credentials are correct then the menu page is loaded else an error message pops up. When a patient enters the clinic, the receptionist searches for the patients’ file if found then they proceed to enter the patient’s details if else they add a new patient file and save the file. Then finally logout. As illustrated in figure 6.1 below:
+
+![](./assets/img/flowchart.jpg)
+
+*Figure 6.1: Program flowchart.*
+
+## Code
+
+The code of the working system is included in the link below:
+
+[Zipped Code File: Nyanga Family Clinic-Main ](https://www.dropbox.com/s/8r0gjfcqmehhwtk/nyanga-family-clinic-main.zip?dl=0)
+
+# Chapter 7
+
+## Testing
+
+Testing a newly developed system is essential so as to ensure accuracy and reliability. It also capacitates verification and validation of code.
+
+## Test cases
+
+## Test Results
+## Unit/ Black Box Testing
+
+Unit/black box testing is for validation, it is used for testing missing functions, interface errors, errors in data structures and analyzing defects. Black box testing is based on the requirements and checks the system to validate against predefined requirements.
+
+## User Acceptance testing
+
 
 
 # Bibliography
