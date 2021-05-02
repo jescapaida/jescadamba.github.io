@@ -18,7 +18,7 @@ The project name is going to be Patient Record Management System. It will be a p
 
 The current system is a manual or traditional filing system, everything is paper based. Nyanga family clinic was founded in 1990, making it 30 years old. In the health sector patient information is very confidential and vital, meaning it should be kept safe and should be readily available. Since numbers of patients have been accumulating over the years, Storage space has become a problem and some of the papers are now torn and dusty. The file location process is time consuming and tedious because there are a lot of files and they can be easily misplaced as they are more prone to human error. Unauthorized access of files is not restricted since any staff member can just open the file cabinet hence data security is improvised. The main problem with the current system as of recent is that they now have digital scanning systems, Implantable cardiac defibrillator (ICD)  and hardware components such as iPads, and MacBooks which record the information their medical devices and their patient information is still in paper.
 
-# Chapter 1: Inception/Initiation
+# Inception/Initiation
 
 ## Introduction
 
@@ -95,7 +95,7 @@ The developer will develop a web based Electronic Medical record system which fo
 
 Therefore Digitization makes it easier for patients and healthcare professionals to remain on the same page. Gone are the days when the patients had to maintain a thick medical records file they needed to bring to every medical appointment. Particularly with medical emergencies, patient history is at the mercy of the attendants who may or may not be well-versed with the patient’s profile. Digitization has leveled this platform to keep both patients and their doctors well informed of every situation.
 
-# Chapter 2:Feasibility Study
+# Feasibility Study
 
 ## Project Plan
 
@@ -150,7 +150,7 @@ The benefits in this case outweigh the costs hence the project is economically f
  This project conforms to all the legal and ethical requirements both in the software development and the health sector.
 
 
-# Chapter 3: Requirements analysis
+# Requirements analysis
 
 ## Survey Report
 
@@ -303,7 +303,7 @@ Anonymity: The people who participated in the research of this study and develop
 The dangers of unethical practices: These will negatively affect the company’s image and reputation since it might result in lawsuits.
 
 
-# Chapter 4: System Modeling
+# System Modeling
 
 ## System models
 
@@ -329,7 +329,7 @@ The diagram below describes in detail the entities involved and the relationship
 
 In this section there is going to be the context diagram for the general outlook and level 0 diagrams to illustrate the functions of the receptionist, administrator and doctor. Below is a data dictionary for the data flow diagrams:
 
-![](../assets/img/datad.jpeg)
+![](./assets/img/datad.jpeg)
 
 *Figure 2.0: A data dictionary for data flows.*
 
@@ -360,7 +360,7 @@ This is a representation in the Unified Modeling Language (UML) is a type of sta
 ![](./assets/img/classd.jpg)
 *Figure 2.0: Class Diagram.*
 
-# Chapter 5
+# System modelling
 
 ## Interface design
 
@@ -413,7 +413,7 @@ The about/ contact us page includes a background history of Nyanga Family Clinic
 
 *Figure 5.7: About/Contact Page.*
 
-# Chapter 6
+# Implementation
 
 ## Program flowchart
 
@@ -427,11 +427,10 @@ This is a diagrammatic representation of the flow of activities in the system fr
 
 The code of the working system is included in the link below:
 
-[Zipped Code File: Nyanga Family Clinic-Main ](https://www.dropbox.com/s/8r0gjfcqmehhwtk/nyanga-family-clinic-main.zip?dl=0)
+[Zipped Code File: Nyanga Family Clinic-Main ](https://www.dropbox.com/scl/fi/xlvcdy15kj5hp6zgewl1c/working-code.docx?dl=0&rlkey=c21sqtgxb7hyx0o4gkmohmf3b)
 
-# Chapter 7
+# Testing
 
-## Testing
 
 Testing a newly developed system is essential so as to ensure accuracy and reliability. It also capacitates verification and validation of code.
 
@@ -442,10 +441,139 @@ Testing a newly developed system is essential so as to ensure accuracy and relia
 
 Unit/black box testing is for validation, it is used for testing missing functions, interface errors, errors in data structures and analyzing defects. Black box testing is based on the requirements and checks the system to validate against predefined requirements.
 
+### Unit testing
+
+
+In the Unit testing I started by adding the configurations for testing, To do this I had to delete contents in the confi.py file as the code illustrates below
+Config.py
+class Config(object):
+    """
+    Common configurations
+    """
+
+    DEBUG = True
+
+
+class DevelopmentConfig(Config):
+    """
+    Development configurations
+    """
+
+    SQLALCHEMY_ECHO = True
+
+
+class ProductionConfig(Config):
+    """
+    Production configurations
+    """
+
+    DEBUG = False
+
+
+class TestingConfig(Config):
+    """
+    Testing configurations
+    """
+
+    TESTING = True
+
+app_config = {
+    'development': DevelopmentConfig,
+    'production': ProductionConfig,
+    'testing': TestingConfig
+}
+
+Test.py
+
+# tests.py
+
+import unittest
+
+from flask_testing import TestCase
+
+from app import create_app, db
+from app.models import Employee
+
+
+class TestBase(TestCase):
+
+    def create_app(self):
+
+        # pass in test configurations
+        config_name = 'testing'
+        app = create_app(config_name)
+        app.config.update(
+            SQLALCHEMY_DATABASE_URI='mysql://dt_admin:dt2016@localhost/dreamteam_test'
+        )
+        return app
+
+    def setUp(self):
+        """
+        Will be called before every test
+        """
+
+        db.create_all()
+
+  
+
+        # create test non-admin user
+        employee = Employee(username="test_user", password="test2016")
+
+        # save users to database
+ 
+        db.session.add(employee)
+        db.session.commit()
+
+    def tearDown(self):
+        """
+        Will be called after every test
+        """
+
+        db.session.remove()
+        db.drop_all()
+
+if __name__ == '__main__':
+    unittest.main()
+
+### Black box testing
+
+
+
 ## User Acceptance testing
 
+This is the final test process before the system is transferred into production. It is the process of comparing the system to its initial requirements and the current needs of its end users. The test should be performed by the system's end users or a group of test specialists with assistance from the development group. The test cases can be designed by analyzing the system requirements definition and then formulated by analyzing the acceptance criteria and the system external specifications. Many of the test cases developed for the earlier software acceptance testing may be used again here.
 
 
+![](./assets/img/authtest.jpg)
+*Figure 5.3: Login authentication test.*
+
+
+![](./assets/img/logtest.jpg)
+*Figure 5.3: User access test.*
+
+
+![](./assets/img/autest.jpg)
+*Figure 5.3: Missing login details.*
+
+
+![](./assets/img/notfoundtest.jpg)
+*Figure 5.3: Search test.*
+
+
+![](./assets/img/searchtest.jpg)
+*Figure 5.3: Search test.*
+
+
+![](./assets/img/seartest.jpg)
+*Figure 5.3: Search test.*
+
+![](./assets/img/addrectest.jpg)
+*Figure 5.3: Add new patient record test.*
+
+![](./assets/img/savetest.jpg)
+*Figure 5.3: Save new record test.*
+
+# Deployment
 # Bibliography
 
 Anna De Benedictis, E. L. (2020). Elctronic Medicl Records implementation in hospitals: An investigation of indivisual and organisational determinants. PLOS .
