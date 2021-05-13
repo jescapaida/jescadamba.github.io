@@ -26,14 +26,15 @@
       <h1 class="project-name">Nyanga Family Clinic</h1>
       <a href="inception.md" class="btn">Inception</a>
       <a href="feasibility.md" class="btn">feasibility-study </a>
-      <a href="literature.md" class="btn">literature-review</a>
       <h2 class="project-tagline"></h2>
-      
-        <a href="https://github.com/jescapaida/jescapaida.github.io" class="btn">View on GitHub</a>
+      {% for page in site.pages %}
+    <a href={{ page.filename }}>{{ page.title }}</a>
+      {% endfor %}
+  <a href="https://github.com/jescapaida/jescapaida.github.io" class="btn">View on GitHub</a>
       
       
     </section>
-
+    {{ content }}
     <section class="main-content">
       <h1 id="introduction">Introduction</h1>
 

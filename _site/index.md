@@ -1,3 +1,8 @@
+---
+title: Introduction
+layout: template
+filename: index.md FILE HERE
+--- 
 # Introduction
 
 Nyanga Family Clinic was founded in 1989 by the late Dr H.K Dambanemuya. It was situated at Mangondoza Township in Nyanga and later moved to Rochdale the central business district at which it is currently sited. It was founded because there was no private practitioner in the whole of Nyanga district and at some point there was no doctor at the general hospital resulting in the community travelling at least 100 kms for consultation. Nyanga family clinic is a general practice hence everyone is the target population especially the Nyanga District residents. Every patient first sees a general practitioner before getting to a specialist. It offers services such as consultation, Family planning services and counselling, scaling, antenatal care but no deliveries and scanning services. It is registered under the Ministry of Health and has been fully functional since 1989. It is currently being run by Sister Damba who is a qualified nurse and Doctor T.T Chiramba.
@@ -436,6 +441,11 @@ Testing a newly developed system is essential so as to ensure accuracy and relia
 
 ## Test cases
 
+Below is the test case of the login page:
+
+![](./assets/img/testcase.jpg)
+*Figure 7.1: Login Test case.*
+
 ## Test Results
 ## Unit/ Black Box Testing
 
@@ -534,14 +544,10 @@ class TestBase(TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
 ### Black box testing
+This will include the end user's functionality and non functionality tests as illustrated below.
 
 
-
-## User Acceptance testing
-
-This is the final test process before the system is transferred into production. It is the process of comparing the system to its initial requirements and the current needs of its end users. The test should be performed by the system's end users or a group of test specialists with assistance from the development group. The test cases can be designed by analyzing the system requirements definition and then formulated by analyzing the acceptance criteria and the system external specifications. Many of the test cases developed for the earlier software acceptance testing may be used again here.
 
 
 ![](./assets/img/authtest.jpg)
@@ -573,7 +579,29 @@ This is the final test process before the system is transferred into production.
 ![](./assets/img/savetest.jpg)
 *Figure 5.3: Save new record test.*
 
+## User Acceptance testing
+
+This is the final test process before the system is transferred into production. It is the process of comparing the system to its initial requirements and the current needs of its end users. The test should be performed by the system's end users or a group of test specialists with assistance from the development group. The test cases can be designed by analyzing the system requirements definition and then formulated by analyzing the acceptance criteria and the system external specifications. Many of the test cases developed for the earlier software acceptance testing may be used again here. 
 # Deployment
+
+## Deliverable Product
+The developed application allows any browser to locate the system and give the login page. The developed application has a login form for security, a new patient form to add in a new patient, an add a procedure form for the nurse and doctor to add procedures. An about page was included with information and contact details of the clinic. Lastly a logout page to logout of the system.
+
+
+
+## User Manual
+
+The deliverable product will be accessed on any browser through the url ,http://jescapaidamoyo.pythonanywhere.com/. The navigation links are clearly stated on the menu bar. Then login with the username, 3113590 /7865632 and password “serviceaboveelse.”  then search for a patient using their patient ID number or add a new patient then use the save patient , enter their details and logout.
+
+
+## Discussion of results/ further work
+
+The system mainly focused on the receptionist is able to save, search records of patients since 2017. Since the developer started by capturing data from manual files to excel and importing them using sql. The developer wishes to extent their work to making a mobile application for patients so that they can book their appointments in the comfort of their own homes and confirm the availability of the doctor beforehand. The mobile application will capacitate a feature that patients can access their medical records.
+
+## Conclusion
+
+Computers are becoming increasingly ubiquitous in every business, industry and research activity, since their use is diverse from entertainment, education, health among others. In hospitals computers are used for patient/employee record keeping, making appointments, calculating bills and managing important information effectively. A thorough analysis of the developed system was conducted and it indicated that it is efficient, usable, and reliable for record management. The application scope could be widened to accommodate a patient’s portal so that they can login to their individual accounts and view their medical records as well as set up appointments.
+
 # Bibliography
 
 Anna De Benedictis, E. L. (2020). Elctronic Medicl Records implementation in hospitals: An investigation of indivisual and organisational determinants. PLOS .
